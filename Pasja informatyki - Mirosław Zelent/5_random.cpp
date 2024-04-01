@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
     int choice;
-    while (choice != 4)
+    while (choice != 3)
     {
         cout << "Choose what you want to do: " << endl;
         cout << "1. Guess the number." << endl;
