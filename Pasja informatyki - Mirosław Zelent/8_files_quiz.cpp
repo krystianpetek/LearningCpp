@@ -36,7 +36,7 @@ int main()
 
             fstream file;
 
-            file.open("contact.txt", ios::out | ios::app);
+            file.open("8_contact.txt", ios::out | ios::app);
 
             file << firstName << endl;
             file << lastName << endl;
@@ -49,7 +49,7 @@ int main()
         {
             fstream file;
 
-            file.open("contact.txt", ios::in);
+            file.open("8_contact.txt", ios::in);
 
             if (file.good() == false)
             {
@@ -95,7 +95,7 @@ int main()
 
             fstream file;
 
-            file.open("quiz.txt", ios::in);
+            file.open("8_quiz.txt", ios::in);
             if (file.good() == false)
             {
                 cout << "File does not exist!" << endl;
